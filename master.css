@@ -1,0 +1,40 @@
+﻿body {
+    direction: rtl;
+    background-color: #E7FCFF;
+    align-content:center;
+}
+#navbar {
+    padding: 3px;
+    background-color: #D1DAFF;
+    transition: all 3s;
+}
+.navli {
+
+    margin-bottom: 5px;
+    border-radius: 3px dashed gray;
+    margin-top: 7px;
+}
+    .navli a {
+        text-decoration: none;
+        color:black;
+        padding: 5px;
+    }
+
+    .navli:hover {
+        border-bottom: 5px solid #DB5338;
+        margin-bottom: 1px;
+        border-radius: 30%;
+        transform: rotate(360deg);
+        transition: transform 700ms,border-bottom 300ms ease-in-out;
+    }
+.lg {
+   display:inline-block;
+   float:left;
+   margin-left:2%;
+    text-shadow: 0px 0px 0px black;
+    box-shadow: 0px 0px 10px 7px #FC8121;
+    border-radius: 3px;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #d97100;
+    color: #FC6868;
+}
